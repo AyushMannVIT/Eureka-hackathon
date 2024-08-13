@@ -104,7 +104,6 @@ p,h1{
     top: 80vh;
     left: 42vw;
     font-size: 1.5rem;
-    background-color: rgba(0, 0, 0, 0.5);
 }
 #addExpenseButton {
     background-color: purple;
@@ -223,7 +222,7 @@ button:hover {
     padding-left: 2.5rem;
     width: 15vw;
 }
-.profilePoints{
+#profilePoints{
     position: fixed;
     top: 80vh;
     left: 80vw;
@@ -240,7 +239,7 @@ button:hover {
     width: 15vw;
 }
 
-#profilePointsText{
+.profilePointsText{
     position: fixed;
     top: 70vh;
     left: 80vw;
