@@ -23,7 +23,7 @@ The problem statement for this project is: "Make A FullStack Website for Any Dai
 
 ## Screenshots
 
-![Money Management Screen](![alt text](image.png))
+![alt text](image.png)
 
 ## Getting Started
 
