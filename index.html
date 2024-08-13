@@ -3,5 +3,40 @@
 <head>
     <title>Home</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    
 </head>
+<body>
+    <header>
+        <nav id="navBar">
+        <a href="#Money">Money </a>
+        <a href="#Time">Time</a>
+        <a href="#Leaderboard">Leaderboard</a>
+        <a href="#Profile">Profile</a>
+        
+        </nav>
+    </header>
+    <main>
+        <div id="Money">
+            <center><h1>MONEY</h1></center>
+            <p>Money is a tool that can help you achieve your goals. It is important to manage your money wisely so that you can make the most of it. This website will help you learn how to budget, save, and invest your money so that you can reach your financial goals.</p>
+            <p id="rupees">₹</p>
+            <p id="week">/ week</p>
+
+            <input id="moneyExpendition" class="centered" value="0" readonly>
+            <input type="text" id="expenseInput" placeholder="Enter expense amount">
+            <button id="addExpenseButton" onclick="addMoney()">Add Expense</button>
+            <button id="removeExpenseButton" onclick="removeMoney()">Remove Expense</button>
+        </div>
+        </div>
+
+    </main>
+
+    <footer>
+    
+        <p> Made With ❤️ by Shadow Garden</p>
+    
+    </footer>
+    <script src="script.js"></script>
+</body>
 </html>
