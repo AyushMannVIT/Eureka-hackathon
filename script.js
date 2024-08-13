@@ -1,6 +1,6 @@
 var points = 100;
 var moneySpent = 0;
-var timeSpent = 1;
+var timeSpent = 0;
 var moneyExpendition = document.getElementById('moneyExpendition');
 var addExpenseButton = document.getElementById('addExpenseButton');
 var removeExpenseButton = document.getElementById('removeExpenseButton');
@@ -47,7 +47,7 @@ setInterval(function() {
 
 
 function addTime(){
-    alert('You are in ZEN MODE and cannot use laptop.')
+    alert(`You are in ZEN MODE and cannot use laptop for ${timeInput.value} minutes.`)
     timeSpent += parseInt(timeInput.value);
     timeExpendition.value = timeSpent;
     points += timeSpent;
