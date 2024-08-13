@@ -1,12 +1,12 @@
 body{
-    height: 100vh;
-    width: 100vw;
     background-color: #ffffff;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-image: url("images/bg1.jpg");
     background-size: cover;
+    background-repeat: repeat;
+    transition: 1s;
 }
 
 #navBar{
@@ -60,7 +60,7 @@ p,h1{
     justify-content: space-around;
     padding: 1rem 2rem;
     padding-left: 2.5rem;
-    width: 15vw;
+    width: 18vw;
 }
 
 #rupees{
@@ -75,7 +75,7 @@ p,h1{
     font-size: 3rem;
     position: absolute;
     top: 22vh;
-    left: 60vw;
+    left: 63vw;
     opacity: 0.5;
 }
 
@@ -88,19 +88,37 @@ p,h1{
     width: 10vw;
     color: white;
 }
-
+.centered-lb{
+    display: flex;
+    position: absolute;
+    top: 40vh;
+    left: 40%;
+    justify-content: center;
+    height: 30vh;
+    width: 40vw;
+    color: white;
+}
+#expenseInput{
+    position: absolute;
+    top: 80vh;
+    left: 42vw;
+    font-size: 1.5rem;
+    background-color: rgba(0, 0, 0, 0.5);
+}
 #addExpenseButton {
     background-color: purple;
     border-radius: 4rem;
     color: #FFFFFF;
     cursor: pointer;
     padding: .5rem .8rem;
+    font-size: 2rem;
     text-align: center;
     width: auto;
     transition: 1s;
     position: absolute;
     top: 80vh;
-    left: 20vw;
+    left: 25vw;
+    height : auto;
 }
 
 #addExpenseButton:hover {
@@ -114,17 +132,116 @@ p,h1{
     color: #FFFFFF;
     cursor: pointer;
     padding: .5rem .8rem;
+    font-size: 2rem;
     text-align: center;
     width: auto;
     position: absolute;
     top: 80vh;
-    left: 40vw;
+    height: auto;
+    left: 63vw;
 }
 #removeExpenseButton:hover {
     background-image: linear-gradient(90deg, #ff00bf 0%, #ff00d4 45%, hwb(0 0% 100%) 80%);
      animation: slidebg 5s linear infinite; 
   }
 
+#Time{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    top: 80vh;
+}
+#TimeTable{
+    background-color: #ffffff;
+    color: gold;
+    border: solid 1px black;
+    border-radius:40px 40px 40px 40px;
+    font-size: 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 2rem;
+    padding-left: 2.5rem;
+    width: 15vw;
+}
+
+#timeExpendition{
+    background-color: #ffffff;
+    color: red;
+    border: solid 1px black;
+    border-radius:40px 40px 40px 40px;
+    font-size: 4rem;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 2rem;
+    padding-left: 2.5rem;
+    width: 18vw;
+}
+
+#timeInput{
+    position: absolute;
+    top: 60vh;
+    left: 42vw;
+    font-size: 1.5rem;
+    width: auto;
+    height: auto;
+    border: #200a21;
+}
+
+#addTimeButton{
+    background-color: purple;
+    border-radius: 4rem;
+    color: #FFFFFF;
+    cursor: pointer;
+    padding: .5rem .8rem;
+    font-size: 2rem;
+    text-align: center;
+    width: auto;
+    position: absolute;
+    top: 70vh;
+    left: 46.5vw;
+}
+
+#Leaderboard{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    top: 80vh;
+}
+#leaderboardTable{
+    background-color: #ffffff;
+    color: gold;
+    border: solid 1px black;
+    border-radius:40px 40px 40px 40px;
+    font-size: 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 2rem;
+    padding-left: 2.5rem;
+    width: 15vw;
+}
+#profilePoints{
+    background-color: #ffffff;
+    color: gold;
+    border: solid 1px black;
+    border-radius:40px 40px 40px 40px;
+    font-size: 4rem;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 2rem;
+    padding-left: 2.5rem;
+    width: 15vw;
+}
+
+#Profile{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    top: 80vh;
+}
 
 
 footer{
@@ -136,3 +253,4 @@ footer{
     bottom: 0;
     width: 100%;
 }
+

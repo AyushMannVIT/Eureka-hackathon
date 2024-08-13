@@ -19,7 +19,9 @@
     <main>
         <div id="Money">
             <center><h1>MONEY</h1></center>
-            <p>Money is a tool that can help you achieve your goals. It is important to manage your money wisely so that you can make the most of it. This website will help you learn how to budget, save, and invest your money so that you can reach your financial goals.</p>
+            <center>
+            <p>Manage your money expense</p>
+            </center>
             <p id="rupees">₹</p>
             <p id="week">/ week</p>
 
@@ -28,6 +30,82 @@
             <button id="addExpenseButton" onclick="addMoney()">Add Expense</button>
             <button id="removeExpenseButton" onclick="removeMoney()">Remove Expense</button>
         </div>
+        <div id="Time">
+            <center><h1>TIME</h1></center>
+            <center>
+            <p>Manage your time</p>
+            </center>
+           <center><input id="timeExpendition" value="0" readonly></center> 
+            <input type="text" id="timeInput" placeholder="Enter time amount">
+            <button id="addTimeButton" onclick="addTime()">Add Time</button>
+        </div>
+        <div id="Leaderboard">
+            <center><h1>LEADERBOARD</h1></center>
+            <p></p>
+
+            <table id="leaderboardTable" class="centered-lb">
+                <tr>
+                    <th>Rank</th>
+                    <th>Name</th>
+                    <th>Points</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>John Doe</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Jane Doe</td>
+                    <td>90</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>John Smith</td>
+                    <td>80</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Jane Smith</td>
+                    <td>70</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>John Doe</td>
+                    <td>60</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Jane Doe</td>
+                    <td>50</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>John Smith</td>
+                    <td>40</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>Jane Smith</td>
+                    <td>30</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>John Doe</td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>Jane Doe</td>
+                    <td>10</td>
+                </tr>
+            </table>
+        <div id="Profile">
+            <center><h1>PROFILE</h1></center>
+            <p>Profile is a tool that can help you achieve your goals. It is important to manage your money wisely so that you can make the most of it. This website will help you learn how to budget, save, and invest your money so that you can reach your financial goals.</p>
+
+
+            <input id="profilePoints" class="centered" value="100" readonly>  
         </div>
 
     </main>
