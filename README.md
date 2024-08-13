@@ -21,6 +21,9 @@ The problem statement for this project is: "Make A FullStack Website for Any Dai
 - **Database:** MongoDB
 - **Styling:** Custom CSS for a clean and aesthetic user interface
 
+## Screenshots
+
+![Money Management Screen](![alt text](image.png))
 
 ## Getting Started
 
